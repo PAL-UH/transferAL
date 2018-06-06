@@ -1,0 +1,33 @@
+[in MATLAB]
+Step 1. To estimate the best prior :
+1a. Run CreateSourceSampleDatasets.m  ### To generate 100 sample datasets from source data [Replace Source Data filename in the code]
+1b. Run ParameterPriorDistribution.m ### To get the cross-validation classification accuracy for hidden nodes 2 to 50 for each dataset 
+1c. Run EstimateBestParameterPriorDistribution.m ### To get the best prior accuracy and standard deviation (also the distribution)
+
+Step 2. To estimate the best posterior :
+2a. Run CreateTargetPoolDatasets.m  ### To generate 10 pairs of pools and test datasets from target data taking 50% of the samples as pool (for active learning)
+		[Replace Target Data filename in the code] [This step is independent of the step 1]
+2b. Run LCEQ_Pool1.m to LCEQ_Pool10.m in parallel/sequential ### For Active learning (to obtain the queried examples) 
+		[Replace PRIOR_MEAN in the code with the mean of the prior distribution as stored in BestPriorsMean.csv from Step 1c]
+2c. Run EstimateBestParameterPosterior_VC3_Pool1.m to EstimateBestParameterPosterior_VC3_Pool10.m in parallel/sequential ### 
+		[Replace PRIOR_MEAN in the code with the mean of the prior distribution as stored in BestPriorsMean.csv from Step 1c]
+2d. Run AnalyzeResults.m to get the final mean accuracy across all the test datasets
+		[Replace PRIOR_MEAN in the code with the mean of the prior distribution as stored in BestPriorsMean.csv from Step 1c]
+
+
+[in UNIX] [Replace the email ID in them to your email ID]
+[To run any SCRIPT.sh , type qsub SCRIPT.sh and press Enter]
+Step 1. To estimate the best prior :
+1a. Run CreateSourceSampleDatasets.sh  ### To generate 100 sample datasets from source data [Replace Source Data filename in the code]
+1b. Run ParameterPriorDistribution.sh ### To get the cross-validation classification accuracy for hidden nodes 2 to 50 for each dataset 
+1c. Run EstimateBestParameterPriorDistribution.sh ### To get the best prior accuracy and standard deviation (also the distribution)
+
+Step 2. To estimate the best posterior :
+2a. Run CreateTargetPoolDatasets.sh  ### To generate 10 pairs of pools and test datasets from target data taking 50% of the samples as pool (for active learning)
+		[Replace Target Data filename in the code] [This step is independent of the step 1]
+2b. Run LCEQ_Pool1.sh to LCEQ_Pool10.sh in parallel/sequential ### For Active learning (to obtain the queried examples) 
+		###	[Replace PRIOR_MEAN in the code with the mean of the prior distribution as stored in BestPriorsMean.csv from Step 1c]
+2c. Run EstimateBestParameterPosterior_VC3_Pool1.sh to EstimateBestParameterPosterior_VC3_Pool10.sh in parallel/sequential  
+		###	[Replace PRIOR_MEAN in the code with the mean of the prior distribution as stored in BestPriorsMean.csv from Step 1c]
+2d. Run AnalyzeResults.sh to get the final mean accuracy across all the test datasets
+		###	[Replace PRIOR_MEAN in the code with the mean of the prior distribution as stored in BestPriorsMean.csv from Step 1c]

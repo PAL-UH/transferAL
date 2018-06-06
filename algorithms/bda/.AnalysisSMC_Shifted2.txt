@@ -1,0 +1,7 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+AnalyzeResults

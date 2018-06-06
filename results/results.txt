@@ -1,0 +1,23 @@
+———————————————————-——————————————————
+Domain Adaptation Algorithm Accuracies
+———————————————————-——————————————————
+
+1- Geodesic Flow Kernel
+———————————————————-———
+- Accuracy: 77.60%
+- Parameters: dim = 1
+
+2- Transfer Joint Matching
+———————————————————-——————
+- Accuracy: 82.40%
+- Parameters: lambda = 0.05, gamma = 0.01, kernel_type = rbf, mu = 0, T = 10, dim = 3
+
+3- Joint Distribution Adaptation
+———————————————————-————————————
+- Accuracy: 80.60%
+- Parameters: lambda = 0.05, gamma = 0.01, kernel_type = primal, T = 10, dim = 3
+
+4- Adaptation Regularization 
+———————————————————-—————————————————————————
+- Accuracy: 59.20%
+- Parameters: alpha = 0.0001, beta = 0.2, mu = 0, gamma = 0.05, kernel_type = poly, dim = 3, T = 10

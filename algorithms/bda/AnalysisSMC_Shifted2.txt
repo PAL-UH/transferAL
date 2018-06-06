@@ -1,0 +1,70 @@
+matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)
+matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)
+matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)
+opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)
+opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+s1 = './';
+s2 = 'Analysis.txt';
+strcat(s1,s2)
+
+ans =
+
+    './Analysis.txt'
+
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+EstimateBestParameterPosterior_VC3_Pool1
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFile));
+} 
+AnalyzeResults
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', '/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/iofun/csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('AnalyzeResults', '/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m', 29)" style="font-weight:bold">AnalyzeResults</a> (<a href="matlab: opentoline('/Users/michaelmmeskhi/Documents/GitHub/domain_adaptation/code/BDA/AnalyzeResults.m',29,0)">line 29</a>)
+    AllAccuracy=csvread(strcat(InputFolder,InputAccuracyFileType));
+} 
+EstimateBestParameterPosterior_VC3_Pool1
