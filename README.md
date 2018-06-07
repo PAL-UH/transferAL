@@ -19,45 +19,45 @@ There are multiple algorithms available here. To use them, just simply run them 
 
 I divided the code and data into categories to understand how things are classified here: 
 
-_**Active Learning**_
+[_**Active Learning**_](https://github.com/PAL-UH/transferAL/tree/master/code/active%20learning)
 
 The models below were used with Active Learning methodology utilizing the Uncertainty sampling strategy:
 
-- Multilayered Perceptron (NN + AL) - [Python]()
-- Logistic Regression (LR + AL) - [Python]()
-- Support Vector Machine (SVM + AL) - [Python]()
+- Multilayered Perceptron (NN + AL) - [Python](https://github.com/PAL-UH/transferAL/blob/master/code/active%20learning/active_learning_baselines.py)
+- Logistic Regression (LR + AL) - [Python](https://github.com/PAL-UH/transferAL/blob/master/code/active%20learning/active_learning_baselines.py)
+- Support Vector Machine (SVM + AL) - [Python](https://github.com/PAL-UH/transferAL/blob/master/code/active%20learning/active_learning_baselines.py)
 
-_**Domain Adaptation**_
+[_**Domain Adaptation**_](https://github.com/PAL-UH/transferAL/tree/master/code/domain%20adaptation)
 
 We used available Domain Adaptation algorithms and other state of the art algorithms out there which are:
 
 - Subspace Alignment (SA) - [MATLAB]() / [Paper]()
-- Transfer Joint Matching (TJM) - [MATLAB]() / [Paper]()
-- Geodesic Flow Kernel (GFK) - [MATLAB]() / [Paper]()
-- Adaptation Regularization based Transfer Learning (ARTL) - [MATLAB]() / [Paper]()
-- Joint Distribution Adaptation (JDA) - [MATLAB]() / [Paper]()
+- Transfer Joint Matching (TJM) - [MATLAB](https://github.com/PAL-UH/transferAL/blob/master/code/domain%20adaptation/TJM/TJM.m) / [Paper](https://github.com/PAL-UH/transferAL/blob/master/papers/tjm.pdf)
+- Geodesic Flow Kernel (GFK) - [MATLAB](https://github.com/PAL-UH/transferAL/blob/master/code/domain%20adaptation/GFK/GFK.m) / [Paper](https://github.com/PAL-UH/transferAL/blob/master/papers/gfk.pdf)
+- Adaptation Regularization based Transfer Learning (ARTL) - [MATLAB](https://github.com/PAL-UH/transferAL/blob/master/code/domain%20adaptation/ARTL/ARTL.m) / [Paper](https://github.com/PAL-UH/transferAL/blob/master/papers/artl.pdf)
+- Joint Distribution Adaptation (JDA) - [MATLAB](https://github.com/PAL-UH/transferAL/blob/master/code/domain%20adaptation/JDA/JDA.m) / [Paper](https://github.com/PAL-UH/transferAL/blob/master/papers/jda.pdf)
 - Domain-Adversarial Training of Neural Networks (DATNN) - [MATLAB]() / [Paper]()
 - Joint Distribution Optimal Transportation (JDOT-SVM) - [MATLAB]() / [Paper]()
 - Joint Distribution Optimal Transportation (JDOT-NN) - [MATLAB]() / [Paper]()
 
-_**Our Algorithm**_
+[_**Our Algorithm**_](https://github.com/PAL-UH/transferAL/tree/master/code/proposed%20algorithm)
 
 Propsed algorithm in our paper:
 
-- Bayesian Domain Adaptation (BDA) - [MATLAB]()
+- Bayesian Domain Adaptation (BDA) - [MATLAB](https://github.com/PAL-UH/transferAL/tree/master/code/proposed%20algorithm/bda)
 
-_**Statistical Tests**_
+[_**Statistical Tests**_](https://github.com/PAL-UH/transferAL/tree/master/code/statistical%20tests)
 
 Most appropriate statistical test conducted to determine statistical significance in results observed. The statistical tests were run in R:
 
 - Paired Two-Tailed t-Test with Unequal Variance - [R]() / [More tests](https://github.com/b0rxa/scmamp)
 
-_**Datasets**_
+[_**Datasets**_](https://github.com/PAL-UH/transferAL/tree/master/data)
 
 We focused on these two datasets which were provided by NASA:
 
-- [Mars]()
-- [Supernova]()
+- [Mars](https://github.com/PAL-UH/transferAL/tree/master/data/mars)
+- [Supernova](https://github.com/PAL-UH/transferAL/tree/master/data/supernova)
 
 ### References:
 
@@ -66,10 +66,18 @@ We focused on these two datasets which were provided by NASA:
 - Statistical tests conducted in R studio were inspired by [@scmamps's](https://github.com/b0rxa/scmamp) compiled comparison of different statistical tests. 
 
 
+## TODO
+
 [X] TODO: Write first draft of README for public.
 
-[ ] TODO: Add all the code i.e. Python, R and MATLAB. 
+[X] TODO: Add all the code Michael has i.e. Python, R and MATLAB. 
 
 [ ] TODO: Fix BDA and upload final verison.
 
-[ ] TODO: Update README with more parameter details and usage info.
+[X] TODO: Update README with more parameter details and usage info.
+
+[ ] TODO: Add missing DA algorithms (DATNN, JDOT-NN, JDOT-SVM).
+
+[ ] TODO: Add statistical test R code.
+
+[ ] TODO: Write documentation for each directory.
