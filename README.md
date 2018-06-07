@@ -54,10 +54,7 @@ Most appropriate statistical test conducted to determine statistical significanc
 
 - Paired Two-Tailed t-Test with Unequal Variance - [R]() / [More tests](https://github.com/b0rxa/scmamp)
 
-[_**Datasets**_](https://github.com/PAL-UH/transferAL/tree/master/data)
-
-
-### Data:
+### Datasets:
 
 We focused on these two datasets which were provided by NASA:
 
