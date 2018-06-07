@@ -1,0 +1,112 @@
+[[1]]
+
+	Paired t-test
+
+data:  bda.m and gfk.m
+t = 15.444, df = 9, p-value = 8.755e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 6.188051 8.311949
+sample estimates:
+mean of the differences 
+                   7.25 
+
+
+[[2]]
+
+	Paired t-test
+
+data:  bda.m and artl.m
+t = 5.6843, df = 9, p-value = 0.0003002
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 1.619479 3.760521
+sample estimates:
+mean of the differences 
+                   2.69 
+
+
+[[3]]
+
+	Paired t-test
+
+data:  bda.m and jda.m
+t = 22.004, df = 9, p-value = 3.905e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.339783 11.480217
+sample estimates:
+mean of the differences 
+                  10.41 
+
+
+[[4]]
+
+	Paired t-test
+
+data:  bda.m and tjm.m
+t = 18.344, df = 9, p-value = 1.944e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 7.478064 9.581936
+sample estimates:
+mean of the differences 
+                   8.53 
+
+
+[[5]]
+
+	Paired t-test
+
+data:  bda.m and dann.m
+t = 5.0573, df = 9, p-value = 0.0006835
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 1.215935 3.184065
+sample estimates:
+mean of the differences 
+                    2.2 
+
+
+[[6]]
+
+	Paired t-test
+
+data:  bda.m and jdotnn.m
+t = 21.048, df = 9, p-value = 5.784e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  8.791366 10.908634
+sample estimates:
+mean of the differences 
+                   9.85 
+
+
+[[7]]
+
+	Paired t-test
+
+data:  bda.m and jdotsvm.m
+t = 10.57, df = 9, p-value = 2.252e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 4.409338 6.810662
+sample estimates:
+mean of the differences 
+                   5.61 
+
+
+[[8]]
+
+	Paired t-test
+
+data:  bda.m and sa.m
+t = 6.1165, df = 9, p-value = 0.0001757
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 3.560372 7.739628
+sample estimates:
+mean of the differences 
+                   5.65 
+
+

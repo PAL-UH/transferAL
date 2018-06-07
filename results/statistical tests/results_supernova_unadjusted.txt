@@ -1,0 +1,112 @@
+[[1]]
+
+	Paired t-test
+
+data:  bda.s and gfk.s
+t = 202.09, df = 9, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.94161 22.43839
+sample estimates:
+mean of the differences 
+                  22.19 
+
+
+[[2]]
+
+	Paired t-test
+
+data:  bda.s and artl.s
+t = 181.97, df = 9, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 19.71186 20.20814
+sample estimates:
+mean of the differences 
+                  19.96 
+
+
+[[3]]
+
+	Paired t-test
+
+data:  bda.s and jda.s
+t = 140.9, df = 9, p-value = 2.322e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 15.28067 15.77933
+sample estimates:
+mean of the differences 
+                  15.53 
+
+
+[[4]]
+
+	Paired t-test
+
+data:  bda.s and tjm.s
+t = 185.68, df = 9, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 20.35891 20.86109
+sample estimates:
+mean of the differences 
+                  20.61 
+
+
+[[5]]
+
+	Paired t-test
+
+data:  bda.s and dann.s
+t = 34.418, df = 9, p-value = 7.283e-11
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 5.390765 6.149235
+sample estimates:
+mean of the differences 
+                   5.77 
+
+
+[[6]]
+
+	Paired t-test
+
+data:  bda.s and jdotnn.s
+t = 155.42, df = 9, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 16.87082 17.36918
+sample estimates:
+mean of the differences 
+                  17.12 
+
+
+[[7]]
+
+	Paired t-test
+
+data:  bda.s and jdotsvm.s
+t = 80.071, df = 9, p-value = 3.742e-14
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 8.357033 8.842967
+sample estimates:
+mean of the differences 
+                    8.6 
+
+
+[[8]]
+
+	Paired t-test
+
+data:  bda.s and sa.s
+t = 9.1981, df = 9, p-value = 7.142e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 17.80343 29.41657
+sample estimates:
+mean of the differences 
+                  23.61 
+
+

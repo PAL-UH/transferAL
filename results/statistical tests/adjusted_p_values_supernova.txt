@@ -1,0 +1,10 @@
+bonferroni adjusted p-values
+----------------------------
+bda.m and gfk.m = 9.047785e-18 
+bda.m and artl.m = 2.325296e-17 
+bda.m and jda.m = 2.321808e-16 
+bda.m and tjm.m = 1.938281e-17 
+bda.m and dann.m = 7.282950e-11 
+bda.m and jdotnn.m = 9.608068e-17 
+bda.m and jdotsvm.m = 3.742138e-14 
+bda.m and sa.m = 7.142476e-06
