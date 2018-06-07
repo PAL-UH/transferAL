@@ -17,7 +17,9 @@ We propose a Maximum a Posteriori approach to estimate model complexity in super
 There are multiple algorithms available here. To use them, just simply run them in MATLAB or Python with parameters configuration defined in the `results/` directory files or defined in their respective papers mentioned below. Be aware, that to reconstruct our experimental setup, you will require heavy computational power (Our hardware is made of a 3712-core computer cluster with 8 Tesla C2075 GPUs, and 22 GTK570 GPUs, 120TB Lustre Filesystem, and 127TB storage space). 
 
 
-I divided the code and data into categories to understand how things are classified here: 
+### Code:
+
+I divided the code into categories to understand how things are classified here: 
 
 [_**Active Learning**_](https://github.com/PAL-UH/transferAL/tree/master/code/active%20learning)
 
@@ -54,10 +56,21 @@ Most appropriate statistical test conducted to determine statistical significanc
 
 [_**Datasets**_](https://github.com/PAL-UH/transferAL/tree/master/data)
 
+
+### Data:
+
 We focused on these two datasets which were provided by NASA:
 
 - [Mars](https://github.com/PAL-UH/transferAL/tree/master/data/mars)
 - [Supernova](https://github.com/PAL-UH/transferAL/tree/master/data/supernova)
+
+### Results:
+
+The following links contain all the results that the code in this repo will generate. Some `.png` and `.pdf` files have been manually generated and are included for more insight into our methodology.
+
+- [Active Learning](https://github.com/PAL-UH/transferAL/tree/master/results/active%20learning)
+- [Domain Adaptation](https://github.com/PAL-UH/transferAL/tree/master/results/domain%20adaptation)
+- [Statistical Tests](https://github.com/PAL-UH/transferAL/tree/master/results/statistical%20tests)
 
 ### References:
 
